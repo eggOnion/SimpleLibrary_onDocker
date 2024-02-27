@@ -19,6 +19,11 @@ COPY mvnw pom.xml ./
 COPY src ./src
 
 
+# Allow execution rights for mvnw file. Wait 0.5sec of wait time before proceeding
+RUN chmod +x ./mvnw
+RUN sleep 0.5
+
+
 # Executes the Maven wrapper (mvnw) command inside the Docker container. 
 # It runs the install Maven lifecycle phase 
 # The -DskipTests option skips running any tests during the build process. 

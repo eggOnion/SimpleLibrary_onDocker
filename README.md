@@ -23,7 +23,7 @@ The best of all is that **NO INSTALLATION** and **NO SETUPS** of other software 
 
 ## How to run
 
-Ensure that you already have a Docker Desktop installed on your system.
+Ensure that you sign-in to your Docker Desktop account.
 
 1. Clone this project.
 2. Run `docker compose up` on you WSL terminal.
