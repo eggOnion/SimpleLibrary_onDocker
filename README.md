@@ -26,7 +26,7 @@ The best of all is that **NO INSTALLATION** and **NO SETUPS** of other software 
 Ensure that you sign-in to your Docker Desktop account.
 
 1. Clone this project.
-2. Run `docker compose up` on you WSL terminal.
+2. Run `docker compose up` on you WSL terminal from the root folder (same directory as the Dockerfile)
 ```
 docker compose up
 ```
